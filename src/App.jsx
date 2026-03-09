@@ -6,17 +6,17 @@ import { useState, useEffect } from "react";
 const CONFIG = {
   // 1. Firebase Console → Project Settings → Your Apps → Web App
   firebase: {
-    apiKey: "AIzaSyDbIDtWRJH7JKnTsJZNA-CAo0vklOSX35o",
-    authDomain: "entelligence-5671d.firebaseapp.com",
-    projectId: "entelligence-5671d",
-    storageBucket: "entelligence-5671d.firebasestorage.app",
-    messagingSenderId: "527718510137",
-    appId: "1:527718510137:web:2247273dc6182dd1d527e8",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
   },
   // 2. Stripe Dashboard → Products → Payment Link URL
-  stripePaymentLink: "https://buy.stripe.com/STRIPE_LINK_BURAYA",
+  stripePaymentLink: import.meta.env.VITE_STRIPE_LINK,
   // 3. Anthropic Console → API Keys
-  anthropicKey: "ANTHROPIC_API_KEY_BURAYA",
+  anthropicKey: import.meta.env.VITE_ANTHROPIC_KEY,
 };
 // ============================================================
 
