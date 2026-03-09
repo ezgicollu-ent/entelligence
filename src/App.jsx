@@ -247,7 +247,7 @@ export default function App() {
         <h1 style={{margin:"0 0 8px",fontSize:26,fontWeight:800,
           background:`linear-gradient(90deg,${C.accent},${C.purple})`,
           WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>
-          ENT AI Assistant
+          ENTelligence
         </h1>
         <p style={{color:C.muted,fontSize:14,margin:"0 0 32px",lineHeight:1.7}}>
           KBB uzmanları için yapay zeka destekli<br/>klinik karar destek sistemi
