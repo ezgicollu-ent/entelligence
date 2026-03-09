@@ -342,7 +342,7 @@ export default function App() {
           <span style={{fontSize:24}}>🫁</span>
           <span style={{fontWeight:800,fontSize:17,
             background:`linear-gradient(90deg,${C.accent},${C.purple})`,
-            WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>ENT AI Assistant</span>
+            WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>ENTelligence</span>
           <Badge label="PRO" color={C.gold}/>
         </div>
         <div style={{display:"flex",alignItems:"center",gap:12}}>
